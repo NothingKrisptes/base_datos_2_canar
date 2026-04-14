@@ -150,7 +150,7 @@ end;
 $$ language plpgsql;
 
 -- Llamar al procedimiento
-call aumentar_salario(1, 500.00);
+call aumentar_salario(4, 800.00);
 
 update empleados set salario = salario + 800 where id = 4;
 
